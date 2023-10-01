@@ -1,11 +1,21 @@
 .sidebar {
   flex: 1;
-  min-height: 100vh;
+ 
   display: flex;
   flex-direction: column;
-
+  position: relative;
   border-right: 2px solid rgba(197, 192, 192, 0.996);
 
+
+ 
+  .sidebarContainer{
+    position:sticky;
+    top:0px;
+    left:20px;
+    max-height:100vh;
+    overflow:scroll;
+
+  }
   .top {
     height: 10vh;
     display: flex;

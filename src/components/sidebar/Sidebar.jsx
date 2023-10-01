@@ -20,6 +20,7 @@ const Sidebar = () => {
   const {dispatch} = useDark()
   return (
     <div className="sidebar">
+      <div className="sidebarContainer">
       <div className="top">
       <Link to="/" style={{textDecoration:"none", color:"red"}} className="sidebarTop"> Admin Panel</Link> 
         </div>
@@ -113,6 +114,7 @@ const Sidebar = () => {
           <div className="coloroptions" onClick={()=>{dispatch({type:All_ACTION.WHITE_ACTION})}}></div>
           <div className="coloroptions" onClick={()=>{dispatch({type:All_ACTION.DARK_ACTION})}}></div>
         </div>
+      </div>
       </div>
     </div>
   );
