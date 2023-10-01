@@ -1,0 +1,81 @@
+.featured {
+  flex: 3;
+  padding: 18px 18px 0px 18px;
+ 
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+  1px 11px 9px 10px rgba(0, 0, 0, 0);
+box-shadow: 0px 10px 13px -7px #000000, 1px 11px 9px 10px rgba(0, 0, 0, 0);
+border-radius: 10px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+
+    h1 {
+      font-size: 21px;
+      color: grey;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+   
+
+    .featuredchart {
+      width: 170px;
+      height: 170px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .amount {
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    .desc {
+      text-align: center;
+      color: grey;
+    }
+
+  .summary{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    margin-top:8px;
+   
+
+
+
+    .item{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        
+        gap:10px;
+
+        .itemTitle{
+            font-size:18px;
+        }
+
+        .itemResult{
+            display:flex;
+            justify-content: space-between;
+            font-size:15px;
+           font-weight:600;
+        }
+    }
+  }
+
+  }
+}

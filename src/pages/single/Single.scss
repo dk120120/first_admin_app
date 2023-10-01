@@ -1,0 +1,87 @@
+.single {
+  display: flex;
+  
+  .singleContainer {
+    flex: 6;
+   
+
+    .top {
+      display: flex;
+      padding: 20px;
+      gap: 10px;
+
+      .left {
+        padding: 20px 20px;
+        flex: 3;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000,
+          1px 11px 9px 10px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 13px -7px #000000,
+          1px 11px 9px 10px rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        position: relative;
+
+        .title {
+          color: grey;
+        }
+        .editbutton {
+          color: blue;
+          background-color: rgba(85, 85, 235, 0.2);
+          padding: 7px 25px;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          font-weight: bold;
+          border-radius: 5px;
+          border: 0.5px solid darkblue;
+          cursor: pointer;
+        }
+
+        .item {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          margin: 30px 10px 10px 10px;
+          gap: 20px;
+
+          .itemimg {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+
+            .detailItem {
+              display: flex;
+              gap: 5px;
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 6;
+      }
+    }
+
+    .bottom{
+      -webkit-box-shadow: 0px 10px 13px -7px #000000,
+        1px 11px 9px 10px rgba(0, 0, 0, 0) ;
+      box-shadow: 0px 10px 13px -7px #000000, 1px 11px 9px 10px rgba(0, 0, 0, 0) !important;
+      border-radius: 10px ;
+      padding: 20px;
+      margin:10px 20px;
+      
+     
+      .title {
+        font-size: 20px;
+        margin:20px 20px 20px 0px;;
+        color:grey;
+      }
+    }
+  }
+}
